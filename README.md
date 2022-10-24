@@ -6,7 +6,9 @@
 1. Then import files to Clash/Surfboard app:
 
 ```text
+# Clash
 http://SERVER_IP:3000/clash.yaml
 
+# Surfboard
 http://SERVER_IP:3000/surfboard.conf
 ```
