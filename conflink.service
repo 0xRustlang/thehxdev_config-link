@@ -1,0 +1,12 @@
+[Unit]
+Description=Send Clash and Surfboard configs to users
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/config-link/app
+ExecStop=lsof -i:"3000" | awk '{print $2}' | grep -v "PID" | xargs kill -9
+
+[Install]
+WantedBy=multi-user.target
