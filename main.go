@@ -10,11 +10,11 @@ func main() {
 	})
 
 	app.Get("/surfboard.conf", func(c *fiber.Ctx) error {
-		return c.SendFile("./surfboard.conf")
+		return c.SendFile("/root/config-link/surfboard.conf")
 	})
 
 	app.Get("/clash.yaml", func(c *fiber.Ctx) error {
-		return c.SendFile("./clash.yaml")
+		return c.SendFile("/root/config-link/clash.yaml")
 	})
 
 	app.Listen(":3000")
