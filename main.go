@@ -17,5 +17,9 @@ func main() {
 		return c.SendFile("/root/config-link/clash.yaml")
 	})
 
+	app.Get("/xray.txt", func(c *fiber.Ctx) error {
+		return c.SendFile("/root/config-link/xray.txt")
+	})
+
 	app.Listen(":3000")
 }
