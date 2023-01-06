@@ -30,6 +30,9 @@ micro clash.yaml
 
 # Surfboard
 micro surfboard.conf
+
+# Every V2ray/Xray client that supports subscription
+micro xray.txt
 ```
 
 3. بعد از اضافه کردن کانفیگ‌ها به فایل های مربوطه اون برنامه، میتونید از ادیتور `micro` با دکمه های `ctrl + q` خارج بشید. (با دکمه های `ctrl + s` هم فایل save میشه.)
@@ -51,6 +54,9 @@ http://SERVER_IP:3000/clash.yaml
 
 # Surfboard
 http://SERVER_IP:3000/surfboard.conf
+
+# V2ray/Xray
+http://SERVER_IP:3000/xray.txt
 ```
 
 اگر دامنه اینترنتی دارید که یک رکورد DNS از نوع A/AAAA هم براش ساختید که به سرور شما اشاره میکنه میتونید بجای IP سرور از دامنه استفاده کنید.
