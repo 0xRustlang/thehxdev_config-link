@@ -1,5 +1,7 @@
 # config-link
 
+**[How to use](https://github.com/thehxdev/config-link/blob/main/HowToUse.md)**
+
 1. Clone this repository to `/root/`.
 1. Put `clash.yaml`, `surfboard.conf` and `xray.txt` files (With exact same name) in `/root/config-link/` (Repository directory).
 1. Run the app with `./app` command.
